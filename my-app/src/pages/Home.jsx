@@ -14,7 +14,7 @@ export default function Home() {
   );
 
   return (
-    <div className="p-6 max-w-5xl mx-auto pt-24">
+    <div className=" pt-24 p-6 max-w-5xl mx-auto">
       <h2 className="text-3xl font-bold mb-6">Latest Posts</h2>
 
       <input

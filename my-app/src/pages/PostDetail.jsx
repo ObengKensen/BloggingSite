@@ -8,7 +8,7 @@ export default function PostDetail() {
   if (!post) return <p className="p-6">Post not found.</p>;
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className=" pt-24 p-6 max-w-4xl mx-auto">
       <h2 className="text-3xl font-bold mb-4">{post.title}</h2>
       <p>{post.content}</p>
     </div>
